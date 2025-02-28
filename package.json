@@ -1,1 +1,14 @@
-{"name": "n8n-heroku", "version": "1.0.0", "scripts": {"start": "n8n start"}, "dependencies": {"n8n": "latest"}, "engines": {"node": ">=18.17 <= 21"}} 
+{
+  "name": "n8n-heroku",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "n8n start",
+    "build": "echo No build step needed for n8n"
+  },
+  "dependencies": {
+    "n8n": "latest"
+  },
+  "engines": {
+    "node": ">=18.17 <= 21"
+  }
+}
